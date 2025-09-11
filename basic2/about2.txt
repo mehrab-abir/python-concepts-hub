@@ -1,0 +1,3 @@
+multi line text
+word length >>len
+access each individual letter
