@@ -17,8 +17,8 @@ print(", ".join(nums)) """
 
 print("**********************")
 
-#to access the index, in this case, access values using index as well
-for i in range(len(nums)-1):
+#to access the index. In this case, access values using index as well
+for i in range(len(nums)):
     print(f"{i} -> {nums[i]}")
 
 
