@@ -66,7 +66,8 @@ class DoublyLinkedList:
         temp = self.head
         for _ in range(index):
             temp = temp.next
-            #wlak forward 'index' steps
+            #0 based index
+            #walk forward 'index' steps
             #temp is now at the node right after where newnode to be inserted
             #newnode to be inserted before temp node
             #opposite to how it is done in c++, where newnode is inserted after the temp node,, so the sequence of operation will be different here
