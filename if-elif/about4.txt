@@ -1,2 +1,2 @@
-if, elif statement >> greatest number among 3 numbers
+if, elif statement >>biggest number among 3 numbers
 

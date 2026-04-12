@@ -28,7 +28,7 @@ language = "Programming"
 """ print(f"Starting from 0 to 4: {language[0:4]}") #prog
 print(f"from index 1 to 4: {language[1:4]}") #rog
 
-print(f"From index 4 to till end: {language[4:]}") #ramming
+print(f"From index 4 to end: {language[4:]}") #ramming
 
 print(f"From starting to index 5: {language[:5]}") #progr
 

@@ -3,11 +3,11 @@ secondNumber = int(input("Enter the second number: "))
 thirdNumber = int(input("Enter the third number: "))
 
 if (firstNumber > secondNumber) and (firstNumber > thirdNumber):
-    print("The greatest number is ",firstNumber)
+    print("The biggest number is ",firstNumber)
 elif (secondNumber > firstNumber) and (secondNumber > thirdNumber):
-    print("The greatest number is ",secondNumber)
+    print("The biggest number is ",secondNumber)
 else:
-    print("The greatest number is ",thirdNumber)"""
+    print("The biggest number is ",thirdNumber)"""
 
 print("----------------------------------")
 

@@ -4,8 +4,12 @@
 #map through all items, make them integer and store them in a list
 nums = list(map(int, input("Enter numbers: ").split()))
 
-print("Numbers : ")
-""" for num in nums:
+print(nums) ## output -> [6, 3, 2, 1]
+
+""" print("Numbers : ")
+for num in nums:
     print(num) """
-for i in range(len(nums)):
-    print(f"{nums[i]} and type: {type(nums[i])}")
+    
+    ##using index
+""" for i in range(len(nums)):
+    print(f"{nums[i]} and type: {type(nums[i])}") """

@@ -28,6 +28,10 @@ class DoublyLinkedList:
         if self.head is None:
             raise IndexError("List is empty")
         
+        if(self.head.next is None):
+            print("Input at least two values to check palindrome")
+            return
+        
         i = self.head
         j = self.tail
         

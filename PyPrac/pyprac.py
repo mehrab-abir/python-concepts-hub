@@ -59,7 +59,7 @@ country.insert(4, 'Srilanka')
 
 print(country) """
 
-""" names = ['Mustak', 'Abir', 'Argho','Sakib','Ibrahim','Shahriar','Adityo']
+""" names = ['Mustak', 'Abir', 'Naif','Muhaimin','Rahat','Shahriar','Adityo']
 
 for name in names:
     print(name)
@@ -74,7 +74,7 @@ while id <=10:
 print(numberList) 
 
 x = list(range(0,5))
-print(x)
+print(x) # [0, 1, 2, 3, 4]
 """
 
 """ def numbers():
