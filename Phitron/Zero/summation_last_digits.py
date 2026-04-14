@@ -1,7 +1,7 @@
 """ first = int(input("Enter first number: "))
 second = int(input("Enter second number: ")) """
 
-nums = input("Enter two numbers: ").split() # a list of strings
+nums = input("Enter two numbers: ").split() # a list of strings, so need to convert to int 
 
 last_1 = int(nums[0]) % 10
 last_2 = int(nums[1]) % 10
