@@ -1,0 +1,4 @@
+Hello, this is a new file and its content
+this is 2nd line
+third line has more content
+more and more in the fourth line
