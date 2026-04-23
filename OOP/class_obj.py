@@ -14,3 +14,13 @@ s1.displayInfo()
 print("*****************")
 
 s2.displayInfo()
+
+
+class Phone:
+    category = "Electronics" # all instances get it
+
+phone_1 = Phone()
+phone_2 = Phone()
+
+print(phone_1.category)
+print(phone_2.category)
