@@ -18,8 +18,8 @@ for i in range(nRows):
     matrixB.append(row)
 
 # multiplication
-# for square matrix
-# for non-square matrix, logic has to be adjusted accordingly
+# works only when both matrix are square and same dimension
+# for square and all other matrices, logic has to be generalized,,,see multiplicationGeneralized.py file
 for row in range(nRows):
     new_row = []
     for i in range(nCols):

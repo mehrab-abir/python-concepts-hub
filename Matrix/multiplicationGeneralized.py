@@ -23,8 +23,6 @@ for i in range(nRowsB):
     matrixB.append(row)
 
 # multiplication
-# for square matrix
-# for non-square matrix, logic has to be adjusted accordingly
 for row in range(nRowsA):
     new_row = []
     for i in range(nColsB):
